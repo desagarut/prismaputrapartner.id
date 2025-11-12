@@ -5,7 +5,7 @@
                 <h2>Layanan Hukum</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row text-center">
             <div class="col-md-4 text-center animate-box">
                 <div class="services">
                     <span class="icon">
