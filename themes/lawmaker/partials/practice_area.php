@@ -38,7 +38,8 @@
                     </span>
                     <div class="desc">
                         <h3><a href="#">Layanan Hukum Bisnis dan Korporasi</a></h3>
-                        <p>Memberikan perlindungan hukum dan solusi strategis bagi pelaku usaha dan entitas bisnis
+                        <p>Memberikan perlindungan hukum dan solusi strategis bagi pelaku usaha dan entitas bisnis, Pendirian dan restrukturisasi badan usaha.
+Penyusunan perjanjian kerja sama dan transaksi komersial. Perlindungan hukum dalam investasi dan kegiatan usaha. Pendampingan dalam negosiasi dan kontrak bisnis.
                     </div>
                 </div>
             </div>
@@ -49,8 +50,7 @@
                     </span>
                     <div class="desc">
                         <h3><a href="#">Alternatif Penyelesaian Sengketa (ADR)</a></h3>
-                        <p>Penyelesaian perkara di luar pengadilan dengan cara yang cepat, efisien, dan rahasia
-                            melalui: Mediasi, Negosiasi, Arbitrase </p>
+                        <p>Penyelesaian perkara di luar pengadilan dengan cara yang cepat, efisien, dan rahasia melalui: Mediasi, Negosiasi, Arbitrase </p>
                     </div>
                 </div>
             </div>
