@@ -139,7 +139,7 @@
 										<div class="form-group row">
 											<label class="col-sm-3 col-form-label" for="profil_singkat">Profil Singkat</label>
 											<div class="col-sm-9">
-												<textarea id="profil_singkat" name="profil_singkat" class="form-control input-sm alamat" placeholder="Profil Singkat" rows="3" style="resize:auto;"><?= $main["profil_singkat"]; ?></textarea>
+												<textarea id="profil_singkat" name="profil_singkat" class="form-control input-sm" placeholder="Profil Singkat" rows="3" style="resize:auto;"><?= $main["profil_singkat"]; ?></textarea>
 											</div>
 										</div>
 										<div class="form-group row">

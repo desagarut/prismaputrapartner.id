@@ -4,8 +4,7 @@
     <div class="container">
         <div class="row animate-box">
             <div class="col-md-8 col-md-offset-2 text-center ftco-heading">
-                <h2>Artikel</h2>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however</p>
+                <h2>Blog Artikel</h2>
             </div>
         </div>
         <div class="row">
