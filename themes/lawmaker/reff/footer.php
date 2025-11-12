@@ -3,7 +3,7 @@
         <div class="row row-pb-md">
             <div class="col-md-3 ftco-widget">
                 <h4>Tentang Kami</h4>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p><?= $desa['profil_singkat']; ?></p>
             </div>
             <div class="col-md-3 col-md-push-1">
                 <h4>Navigation</h4>
@@ -23,9 +23,9 @@
             <div class="col-md-3 col-md-push-1">
                 <h4>Kontak</h4>
                 <ul class="ftco-footer-links">
-                    <li>Jalan Proklamasi RT. 04 RW. 17 Desa Jayaraga Kecamatan Tarogong Kidul, <br> Kab. Garut Prov. Jawa Barat <?= $desa['alamat_kantor']; ?></li>
+                    <li><?= $desa['alamat_instansi']; ?> Kode Pos <?= $desa['kode_pos']; ?></li>
                     <li><a href="tel://<?= $desa['telepon_instansi']; ?>"><?= $desa['telepon_instansi']; ?></a></li>
-                    <li><a href="mailto:info@yoursite.com"><?= $desa['email_instansi']; ?></a></li>
+                    <li><a href="mailto:<?= $desa['email_instansi']; ?>"><?= $desa['email_instansi']; ?></a></li>
                 </ul>
             </div>
 
