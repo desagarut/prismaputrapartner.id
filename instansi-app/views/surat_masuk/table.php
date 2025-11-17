@@ -113,12 +113,21 @@
 																	<td><input type="checkbox" name="id_cb[]" value="<?= $data['id'] ?>" /></td>
 																	<td align="center"><?= $data['nomor_urut'] ?></td>
 																	<td class="nostretch">
-																		<a href="<?= site_url("surat_masuk/form/$p/$o/$data[id]") ?>" class="btn bg-orange btn-box btn-sm" title="Ubah Data"><i class="fa fa-edit"></i></a>
-																		<?php if ($data['berkas_scan']) : ?>
-																			<a href="<?= base_url(LOKASI_ARSIP . $data['berkas_scan']) ?>" class="btn bg-purple btn-box btn-sm" title="Unduh Berkas Surat" target="_blank"><i class="fa fa-download"></i></a>
-																		<?php endif; ?>
-																		<a href="<?= site_url("surat_masuk/dialog_disposisi/$o/$data[id]") ?>" class="btn bg-navy btn-box btn-sm" title="Cetak Lembar Disposisi Surat" data-remote="false" data-toggle="modal" data-target="#modalBox" data-title="Cetak Lembar Disposisi Surat"><i class="fas fa-print"></i></a>
-																		<a href="#" data-href="<?= site_url("surat_masuk/delete/$p/$o/$data[id]") ?>" class="btn bg-maroon btn-box btn-sm" title="Hapus Data" data-toggle="modal" data-target="#confirm-delete"><i class="fa fa-trash"></i></a>
+																		<div class="btn-group">
+																			<button type="button" class="btn btn-primary">Aksi</button>
+																			<button type="button" class="btn btn-primary dropdown-toggle dropdown-icon" data-toggle="dropdown">
+																				<span class="sr-only">Toggle Dropdown</span>
+																			</button>
+																			<div class="dropdown-menu" role="menu">
+																				<a href="<?= site_url("surat_masuk/form/$p/$o/$data[id]") ?>" class="dropdown-item" title="Ubah Data"><i class="fa fa-edit"></i> Ubah</a>
+																				<?php if ($data['berkas_scan']) : ?>
+																					<a href="<?= base_url(LOKASI_ARSIP . $data['berkas_scan']) ?>" class="dropdown-item" title="Unduh Berkas Surat" target="_blank"><i class="fa fa-download"></i> Unduh</a>
+																				<?php endif; ?>
+																				<a href="<?= site_url("surat_masuk/dialog_disposisi/$o/$data[id]") ?>" class="dropdown-item" title="Cetak Lembar Disposisi Surat" data-remote="false" data-toggle="modal" data-target="#modalBox" data-title="Cetak Lembar Disposisi Surat"><i class="fas fa-print"></i> Cetak</a>
+																				<div class="dropdown-divider"></div>
+																				<a href="#" data-href="<?= site_url("surat_masuk/delete/$p/$o/$data[id]") ?>" class="dropdown-item" title="Hapus Data" data-toggle="modal" data-target="#confirm-delete"><i class="fa fa-trash"></i> Hapus</a>
+																			</div>
+																		</div>
 																	</td>
 																	<td nowrap><?= tgl_indo_out($data['tanggal_penerimaan']) ?></td>
 																	<td nowrap><?= $data['nomor_surat'] ?></td>

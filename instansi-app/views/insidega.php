@@ -3,9 +3,8 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title> <?= strtoupper($this->setting->login_title)
-				. ' ' . strtoupper($this->setting->sebutan_kecamatan_singkat)
-				. strtoupper(($header['nama_kecamatan']) ? ' ' . $header['nama_kecamatan'] : '')
+	<title> <?= $this->setting->login_title
+				. ' ' . $this->setting->admin_title
 				. get_dynamic_title_page_from_path();
 			?>
 	</title>

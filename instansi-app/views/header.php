@@ -3,7 +3,10 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title></title>
+	<title> <?= $this->setting->admin_title
+				. get_dynamic_title_page_from_path();
+			?>
+	</title>
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	<meta name="theme-color" content="#E08E0B">
 	<?php if (is_file(LOKASI_LOGO_INSTANSI . "favicon.ico")) : ?>
